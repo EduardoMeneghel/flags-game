@@ -1,0 +1,63 @@
+html{
+    font-family: Arial Black, Helvetica, sans-serif;
+    height: 100%;
+    background-color: #111111;
+}
+.center{
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.image-small{
+    max-height: 16px;
+}
+
+.image-larg{
+    width: 500px;
+    height: 300px;
+    border: black solid 1px;
+}
+
+.language{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+span{
+    color: white;
+    font-size: 24px;
+}
+
+button{
+    height: 100px;
+    width: 500px;
+    border: none;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: dodgerblue;
+}
+
+.container{
+    width: 600px;
+    height: 100%;
+}
+
+.margin-top-small{
+    margin-top: 50px;
+}
+
+.margin-top-medium{
+    margin-top: 100px;
+}
+
+.margin-top-larg{
+    margin-top: 250px;
+}
+
+.transition{
+
+}
