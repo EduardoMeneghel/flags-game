@@ -3,11 +3,14 @@ var arrayNameCountry = ["Andorra","United Arab Emirates","Afghanistan","Antigua 
 
 getNewFlag();
 
+var randomIndex;
+var nameImagePng;
+
 function getNewFlag(){
   var elementoImageHtml = document.getElementById("flag");
 
-  const randomIndex = Math.floor(Math.random() * arrayNameImageFlag.length);
-  const nameImagePng = arrayNameImageFlag[randomIndex];
+  randomIndex = Math.floor(Math.random() * arrayNameImageFlag.length);
+  nameImagePng = arrayNameImageFlag[randomIndex];
 
   elementoImageHtml.src = '../flags/' + nameImagePng;
 }
@@ -21,3 +24,13 @@ function getNewFlag(){
     option.text = arrayNameCountry[i];
     select.appendChild(option);
   }
+
+  function validate() {
+    var select = document.getElementById("select-flags");
+    var selectedValue = select.value;
+    if(selectedValue == arrayNameCountry[randomIndex]){
+      alert("congratulations you got it right");
+    } else {
+      alert("You made a mistake the correct country is "+arrayNameCountry[randomIndex]);
+    }
+}
