@@ -38,7 +38,7 @@ span{
 
 button{
     height: 100px;
-    width: 500px;
+    width: 520px;
     border: none;
     color: white;
     font-size: 32px;
@@ -56,6 +56,10 @@ button{
     margin-top: 50px;
 }
 
+.margin-top-very-small{
+    margin-top: 25px;
+}
+
 .margin-top-medium{
     margin-top: 100px;
 }
@@ -66,4 +70,15 @@ button{
 
 .transition{
 
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+.flex-container > button {
+    width: 250px;
+    padding: 20px;
+    font-size: 30px;
 }
