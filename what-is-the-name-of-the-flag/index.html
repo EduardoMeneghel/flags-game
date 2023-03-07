@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flags Game</title>
-    <link rel="stylesheet" type="text/css" href="./css/reset.css" media="screen" />
-    
+    <link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
   </head>
   <body>
-    <h1>What is the name of the flag?</h1>
-    <h1>What's the flag?</h1>
+    <body class="center">
+      <section class="language ">
+        <span>language</span>
+        <img class="image-small" src="../flags/br.png">
+        <img class="image-small" src="../flags/us.png">
+      </section>
+      <main class="container center">
+        <div class="flex-container margin-top-very-small">
+          <img id="flag1" class="image-larg" src="">
+          <img id="flag2" class="image-larg" src="">
+        </div>
+        <div class="flex-container">
+          <img id="flag3" class="image-larg" src="">
+          <img id="flag4" class="image-larg" src=""> 
+        </div>
+        <div class="flex-container margin-top-very-small">
+          <button style="margin-right: 10px; background-color: green;" onclick="validate(this)">SEND</button>
+          <button style="margin-left: 10px; background-color: coral;" onclick="getNewFlag()">RANDOM</button>
+        </div>
+        <a href="../index.html"><button class="margin-top-very-small">BACK</button></a>
+      </main> 
+      <script type="text/javascript" src="../ts/what-is-the-name-of-the-flag.js"></script>
+    </body>
   </body>
 </html>

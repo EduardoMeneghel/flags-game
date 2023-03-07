@@ -82,3 +82,9 @@ button{
     padding: 20px;
     font-size: 30px;
 }
+
+.flex-container > img {
+    height: 150px;
+    padding: 20px;
+    font-size: 30px;
+}
