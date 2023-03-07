@@ -9,12 +9,13 @@
   </head>
   <body>
     <body class="center">
-      <section class="language ">
+      <section class="language">
         <span>language</span>
         <img class="image-small" src="../flags/br.png">
         <img class="image-small" src="../flags/us.png">
       </section>
-      <main class="container center">
+      <main class="container center margin-top-very-small">
+        <span id="flag-name" class="bold"></span>
         <div class="flex-container margin-top-very-small">
           <img id="flag1" class="image-larg" src="">
           <img id="flag2" class="image-larg" src="">
@@ -24,7 +25,7 @@
           <img id="flag4" class="image-larg" src=""> 
         </div>
         <div class="flex-container margin-top-very-small">
-          <button style="margin-right: 10px; background-color: green;" onclick="validate(this)">SEND</button>
+          <button style="margin-right: 10px; background-color: green;" onclick="validate()">SEND</button>
           <button style="margin-left: 10px; background-color: coral;" onclick="getNewFlag()">RANDOM</button>
         </div>
         <a href="../index.html"><button class="margin-top-very-small">BACK</button></a>
