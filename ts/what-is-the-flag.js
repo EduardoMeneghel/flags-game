@@ -28,9 +28,12 @@ function getNewFlag(){
   function validate() {
     var select = document.getElementById("select-flags");
     var selectedValue = select.value;
+    var screen = document.getElementById("screen");
     if(selectedValue == arrayNameCountry[randomIndex]){
-      alert("congratulations you got it right");
+      screen.style.backgroundColor = 'azure';
+      getNewFlag()
     } else {
+      screen.style.backgroundColor = 'lightcoral';
       alert("You made a mistake the correct country is "+arrayNameCountry[randomIndex]);
     }
 }
